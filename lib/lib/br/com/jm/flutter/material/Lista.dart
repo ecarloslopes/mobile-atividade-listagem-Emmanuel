@@ -9,29 +9,29 @@ class Lista extends StatelessWidget {
           Card(
             child: ListTile(
               leading: Icon(Icons.fastfood),
-              title: Text('Combo Rango Master - R\$ 30,00'),
-              subtitle: Text('Hamburguer 240g + Batata à moda da casa + Suco'),
+              title: Text('Combo T-Rex - R\$ 36,00'),
+              subtitle: Text('Hamburguer 240g (Pão brioche e queijo cheddar) Batata frita com molho cheddar + Refrigerante 500 ml'),
             ),
           ),
           Card(
             child: ListTile(
               leading: Icon(Icons.fastfood),
-              title: Text('Combo Rango Fit - R\$ 28,00'),
-              subtitle: Text('Frango frito 240g + Purê de batata-doce + Suco'),
+              title: Text('Combo Velociraptor - R\$ 38,00'),
+              subtitle: Text('Hamburguer 240g (Pão australiano e queijo gorgonzola) Batata frita com maionese de alho + Refrigerante 500 ml'),
             ),
           ),
           Card(
             child: ListTile(
               leading: Icon(Icons.fastfood),
-              title: Text('Salgadozada - R\$ 6,00'),
-              subtitle: Text('Salgados variados'),
+              title: Text('Combo Braquiossauro - R\$ 40,00'),
+              subtitle: Text('Hamburguer 240g (Pão italiano e queijo brie) Batata frita + Refrigerante 500 ml'),
             ),
           ),
         ],
       ),
       appBar: AppBar(
         backgroundColor: Colors.redAccent,
-        title: const Text('Comedoria Rangueira - João Pessoa'),
+        title: const Text('Jurassic Park Lanchonete'),
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
