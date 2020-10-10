@@ -30,7 +30,7 @@ class Lista extends StatelessWidget {
         ],
       ),
       appBar: AppBar(
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.blue,
         title: const Text('Jurassic Park Lanchonete'),
       ),
       floatingActionButton: FloatingActionButton(
